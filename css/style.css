@@ -25,7 +25,7 @@ body {
 }
 #button-choice{
   border-radius: 5%;
-  background-color:brown;
+  background-color:darkgray;
   color:white;
 }
 .search-button {
@@ -50,6 +50,7 @@ body {
 
   
 }
+
 
 
 .single-product {
