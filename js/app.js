@@ -21,15 +21,14 @@ const showProducts = (products) => {
       <h6><span class="fas fa-star text-danger"></span> Number of ratings: ${product.rating.rate}</h6><br>
       <h6 > <span class="fas fa-user-alt text-danger"></span> Average rate: ${product.rating.count}</h6>
       <h4>Price: $ ${product.price}</h4>
-      <button onclick="addToCart(${product.price})" id="addToCart-btn" class="buy-now btn btn-light">add to cart</button>
-      <button onclick="details(${product.id})" id="details-btn" class="btn btn-info text-white">Details</button></div>
+      <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-light">add to cart</button>
+      <button id="details-btn" class="btn btn-info text-white">Details</button></div>
       `;
     document.getElementById("all-products").appendChild(div);
   }
 };
 
-// modal 
-// detail
+
 
 
 
